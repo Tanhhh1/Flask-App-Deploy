@@ -8,7 +8,7 @@ from sklearn.linear_model import LinearRegression, Lasso
 app = Flask(__name__)
 
 # Load data
-data = pd.read_csv('house_data.csv')
+data = pd.read_csv('kc_house_data.csv')
 
 # Define features and target
 features = ['bedrooms', 'bathrooms', 'sqft_living', 'floors', 'waterfront', 'yr_built', 'view', 'condition', 'grade', 'zipcode', 'lat', 'long']
